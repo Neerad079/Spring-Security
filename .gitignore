@@ -1,0 +1,60 @@
+# ===============================
+# Java / Spring Boot
+# ===============================
+SpringSecurity/target/
+*.class
+*.log
+.idea/
+.agents/
+*.iml
+AGENTS.md
+# ===============================
+# IntelliJ IDEA
+# ===============================
+
+*.iws
+*.ipr
+
+# ===============================
+# Eclipse / STS
+# ===============================
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# ===============================
+# NetBeans
+# ===============================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+# ===============================
+# VS Code
+# ===============================
+.vscode/
+
+# ===============================
+# OS files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Secrets (optional)
+# ===============================
+.env
+application.properties
+
+# ===============================
+# Custom
+# ===============================
+
+HELP.md

@@ -17,4 +17,8 @@ public class UserController {
     public Users UserRegister(@RequestBody Users users){
         return userService.UserRegister(users);
     }
+    @PostMapping("/login")
+    public String UserLogin(@RequestBody Users users){
+       return userService.verify(users);
+    }
 }
